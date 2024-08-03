@@ -413,7 +413,7 @@ export function GlobeDemo() {
         >
         </motion.div>
         {/* <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-black z-40" /> */}
-        <div className=" w-full h-80 md:h-full z-10 md:-bottom-0">
+        <div className="flex w-full items-center align-middle justify-center h-80 lg:h-[30rem] xl:h-full z-10 md:-bottom-0">
           <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
       </div>

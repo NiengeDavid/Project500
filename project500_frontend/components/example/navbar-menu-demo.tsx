@@ -21,16 +21,17 @@ function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
     <div
-      className={cn("flex justify-center items-center fixed top-10 inset-x-0 max-w-screen-md mx-auto z-50", className)}
+      className={cn(
+        "flex justify-center items-center fixed top-10 inset-x-0 max-w-screen-md mx-2 z-50 bg-white bg-opacity-90 shadow rounded-3xl md:mx-auto",
+        className
+      )}
     >
-      <a href="/" className="flex w-full justify-start px-2 space-x-2 items-center">
-        <Image
-          src={TestLogo}
-          alt="Logo"
-          width={28}
-          height={28}
-        />
-        <span className="text-white text-lg texr-left text-nowrap">
+      <a
+        href="/"
+        className="flex w-full justify-start px-2 space-x-2 items-center"
+      >
+        <Image src={TestLogo} alt="Logo" width={28} height={28} />
+        <span className="text-black text-lg texr-left text-nowrap">
           Project 500
         </span>
       </a>
@@ -38,8 +39,15 @@ function Navbar({ className }: { className?: string }) {
         <HoveredLink href="/">Home</HoveredLink>
         <HoveredLink href="/">About</HoveredLink>
         <HoveredLink href="/">Location</HoveredLink>
-        <HoveredLink href="/">Sponsors</HoveredLink>
-        <HoveredLink href="/">Host</HoveredLink>
+        <HoveredLink href="/">Sponsor</HoveredLink>
+        <MenuItem setActive={setActive} active={active} item="...">
+          <div className="flex flex-col space-y-4 text-sm">
+            <HoveredLink href="/Volunteer">Volunteer</HoveredLink>
+            <HoveredLink href="/Team">Team</HoveredLink>
+            <HoveredLink href="/Gallery">Gallery</HoveredLink>
+            <HoveredLink href="/Contact">Contact Us</HoveredLink>
+          </div>
+        </MenuItem>
       </Menu>
     </div>
   );

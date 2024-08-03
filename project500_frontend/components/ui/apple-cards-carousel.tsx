@@ -14,7 +14,7 @@ import {
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Image, { ImageProps } from "next/image";
-import { useOutsideClick } from "@/hooks/use-outside-click";
+import { useOutsideClick } from "../hooks/use-outside-click";
 
 interface CarouselProps {
   items: JSX.Element[];
