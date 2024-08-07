@@ -11,7 +11,7 @@ import { FooterDemo } from "@/components/footer";
 
 export default function Home() {
   return (
-    <div className="w-full text-center text-2xl font-medium text-red-500">
+    <div className="w-full">
       <div className="w-full">
         <ImagesSliderDemo />
       </div>

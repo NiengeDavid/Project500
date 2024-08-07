@@ -14,11 +14,9 @@ export default function BackgroundBeamsDemo() {
         </h1>
         <p></p>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm md:text-center relative z-10">
-          Welcome to MailJet, the best transactional email service on the web.
-          We provide reliable, scalable, and customizable email solutions for
-          your business. Whether you&apos;re sending order confirmations,
-          password reset emails, or promotional campaigns, MailJet has got you
-          covered.
+          Welcome to Project500, we've currently closed the volunteer quoter for this cohort of the Project500.
+          You can leave your mail and we'll be right in your box when the next cohort kicksoff in January 2025.
+          Thank you for the interest to serve.
         </p>
         <input
           type="text"
