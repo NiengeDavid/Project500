@@ -3,16 +3,12 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "../ui/navbar-menu";
 import { cn } from "@/lib/utils";
-//import TestLogo from "../public/assets/TestLogo.png";
 const TestLogo = "/assets/TestLogo.png";
 
 export default function NavbarDemo() {
   return (
     <div className="relative w-full flex items-center justify-center mx-auto">
       <Navbar className="top-4" />
-      {/* <p className="text-black dark:text-white">
-        The Navbar will show on top of the page
-      </p> */}
     </div>
   );
 }
@@ -36,16 +32,16 @@ function Navbar({ className }: { className?: string }) {
         </span>
       </a>
       <Menu setActive={setActive}>
-        <HoveredLink href="/">Home</HoveredLink>
-        <HoveredLink href="/">About</HoveredLink>
-        <HoveredLink href="/">Location</HoveredLink>
-        <HoveredLink href="/">Sponsor</HoveredLink>
+        <HoveredLink href="#home">Home</HoveredLink>
+        <HoveredLink href="#about">About</HoveredLink>
+        <HoveredLink href="#location">Location</HoveredLink>
+        <HoveredLink href="#sponsor">Sponsor</HoveredLink>
         <MenuItem setActive={setActive} active={active} item="...">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/Volunteer">Volunteer</HoveredLink>
-            <HoveredLink href="/Team">Team</HoveredLink>
-            <HoveredLink href="/Gallery">Gallery</HoveredLink>
-            <HoveredLink href="/Contact">Contact Us</HoveredLink>
+            <HoveredLink href="#team">Team</HoveredLink>
+            <HoveredLink href="#volunteer">Volunteer</HoveredLink>
+            {/* <HoveredLink href="#gallery">Gallery</HoveredLink> */}
+            <HoveredLink href="#contact">Contact Us</HoveredLink>
           </div>
         </MenuItem>
       </Menu>

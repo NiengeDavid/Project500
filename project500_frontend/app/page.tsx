@@ -12,28 +12,28 @@ import { FooterDemo } from "@/components/footer";
 export default function Home() {
   return (
     <div className="w-full">
-      <div className="w-full">
+      <div id="home" className="w-full">
         <ImagesSliderDemo />
       </div>
       <div className="w-full flex justify-center">
         <NavbarDemo />
       </div>
-      <div className="w-full">
+      <div id="about" className="w-full">
         <About />
       </div>
-      <div className="w-full">
+      <div id="location" className="w-full">
         <AppleCardsCarouselDemo />
       </div>
-      <div className="w-full">
+      <div id="sponsor" className="w-full">
         <Sponsor />
       </div>
-      <div className="w-full">
+      <div id="team" className="w-full">
         <AnimatedTooltipPreview />
       </div>
-      <div className="w-full">
+      <div id="volunteer" className="w-full">
         <BackgroundBeamsDemo />
       </div>
-      <div className="w-full">
+      <div id="contact" className="w-full">
         <Contact />
       </div>
       <div className="w-full mt-20">
