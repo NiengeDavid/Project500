@@ -9,7 +9,7 @@ const contact = () => {
             Contact Us
           </h2>
           <p className="mb-8 lg:mb-16 font-light text-lg text-center text-gray-500 md:text-xl">
-            Get in touch, leave a message and we'll get right back to you.
+            Get in touch, leave a message and we&apos;ll get right back to you.
           </p>
           <form action="#" className="space-y-8">
             <div>

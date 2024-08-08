@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 import { BackgroundBeams } from "../ui/background-beams";
 
@@ -14,8 +15,8 @@ export default function BackgroundBeamsDemo() {
         </h1>
         <p></p>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm md:text-center relative z-10">
-          Welcome to Project500, we've currently closed the volunteer quoter for this cohort of the Project500.
-          You can leave your mail and we'll be right in your box when the next cohort kicksoff in January 2025.
+          Welcome to Project500, we&apos;ve currently closed the volunteer quoter for this cohort of the Project500.
+          You can leave your mail and we&apos;ll be right in your box when the next cohort kicksoff in January 2025.
           Thank you for the interest to serve.
         </p>
         <input
