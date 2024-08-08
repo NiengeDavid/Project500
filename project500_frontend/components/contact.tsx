@@ -13,6 +13,18 @@ const contact = () => {
           </p>
           <form action="#" className="space-y-8">
             <div>
+              <label className="block mb-2 text-sm text-start font-medium text-gray-900 dark:text-gray-300">
+                Name
+              </label>
+              <input
+                type="text"
+                id="name"
+                className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-zinc-500 focus:border-zinc-500 "
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div>
               <label className="block mb-2 text-sm text-start font-medium text-gray-900">
                 Your email
               </label>
