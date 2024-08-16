@@ -26,8 +26,8 @@ function Navbar({ className }: { className?: string }) {
         href="/"
         className="flex w-full justify-start px-2 space-x-2 items-center"
       >
-        <Image src={TestLogo} alt="Logo" width={28} height={28} />
-        <span className="text-black text-lg texr-left text-nowrap">
+        <Image src={TestLogo} alt="Logo" width={20} height={20} />
+        <span className="text-black text-sm texr-left text-nowrap md:text-lg">
           Project 500
         </span>
       </a>
