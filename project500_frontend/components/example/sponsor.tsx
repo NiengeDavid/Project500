@@ -15,9 +15,10 @@ export function Sponsor() {
           <h1 className="text-5xl xl:text-7xl">
             Be a part of this <br /> project and change lives.
           </h1>
-          <span className="font-light text-lg pt-2">
-            Buy a shirt, and reach a life. The more you buy, the more lives we
-            reach!
+          <span className="font-light text-lg mt-6">
+            Support our volunteers in the Dyslexia Project 500 by sponsoring a
+            project 500 T-shirt!, and/or the book  “dyslexia - a superpower unveiled” for children in Africa.
+
           </span>
         </div>
         <BackgroundGradientDemo />
