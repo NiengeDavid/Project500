@@ -15,16 +15,16 @@ export function FooterDemo() {
       <div className="w-full text-center ">
         <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
           <FooterBrand
-            href="https://flowbite.com"
+            href="/"
             src={Logo}
             alt="Project500 Logo"
             name="Project500"
           />
           <FooterLinkGroup>
-            <FooterLink href="#">Facebook</FooterLink>
-            <FooterLink href="#">Instagram</FooterLink>
-            <FooterLink href="#">X(Twitter)</FooterLink>
-            <FooterLink href="#">Threads</FooterLink>
+            <FooterLink href="https://www.facebook.com/profile.php?id=61563840127348&mibextid=kFxxJD">Facebook</FooterLink>
+            <FooterLink href="https://www.instagram.com/dyslexiaprojectafrica?igsh=MW53aHZkbWJuMms3eg%3D%3D&utm_source=qr">Instagram</FooterLink>
+            <FooterLink href="https://x.com/DyslexiaProjAfr?t=WZyQ-aW0U7AHhv97yfhMMQ&s=09">X(Twitter)</FooterLink>
+            {/* <FooterLink href="#">Threads</FooterLink> */}
           </FooterLinkGroup>
         </div>
         <FooterDivider className="border-zinc-950" />
