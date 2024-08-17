@@ -7,7 +7,7 @@ const people = [
     name: "Blessing Ingyape",
     designation: "Co-pioneer Dyslexia Project Africa",
     image: "/assets/team/coachB.jpeg",
-    link: "www.blessingingyape.ng",
+    link: "https://blessingingyape.com.ng/",
   },
   {
     id: 2,

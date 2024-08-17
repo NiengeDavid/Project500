@@ -74,7 +74,7 @@ export default function BackgroundGradientDemo() {
         >
           <span>Buy now </span>
           <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
-            N1000
+            N1,500
           </span>
         </a>
       </BackgroundGradient>

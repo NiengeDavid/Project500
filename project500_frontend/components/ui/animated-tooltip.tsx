@@ -17,6 +17,7 @@ export const AnimatedTooltip = ({
     name: string;
     designation: string;
     image: string;
+    link: string;
   }[];
 }) => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -36,6 +37,11 @@ export const AnimatedTooltip = ({
     const halfWidth = event.target.offsetWidth / 2;
     x.set(event.nativeEvent.offsetX - halfWidth); // set the x value, which is then used in transform and rotate
   };
+
+  const handleClick = (url: string) => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+  
 
   return (
     <>
@@ -78,6 +84,7 @@ export const AnimatedTooltip = ({
             )}
           </AnimatePresence>
           <Image
+            onClick={() => handleClick(item.link)}
             onMouseMove={handleMouseMove}
             height={100}
             width={100}
