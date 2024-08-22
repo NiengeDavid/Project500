@@ -4,8 +4,8 @@ import { BackgroundGradient } from "../ui/background-gradient";
 import { IconAppWindow } from "@tabler/icons-react";
 import Image from "next/image";
 
-const Hood = "/assets/shirt.jpeg";
-const Book = "/assets/book.jpeg";
+const Hood = "/assets/shirt.png";
+const Book = "/assets/book.png";
 
 export default function BackgroundGradientDemo() {
   return (
