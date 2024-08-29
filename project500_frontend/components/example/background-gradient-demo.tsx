@@ -5,7 +5,7 @@ import { IconAppWindow } from "@tabler/icons-react";
 import Image from "next/image";
 
 const Hood = "/assets/shirt.png";
-const Book = "/assets/book.png";
+const Book = "/assets/sponsor.jpeg";
 
 export default function BackgroundGradientDemo() {
   return (
@@ -19,7 +19,7 @@ export default function BackgroundGradientDemo() {
           className="object-contain rounded-t-[22px]"
         />
         <p className="px-4 text-start sm:text-xl text-neutral-600 mt-6 font-semibold dark:text-neutral-200">
-          Project 500 Tshirt
+          Dyslexia Project500 Tshirt
         </p>
 
         <p className="p-4 text-start text-sm text-neutral-600 dark:text-neutral-400">
@@ -67,7 +67,7 @@ export default function BackgroundGradientDemo() {
           Or use the button below
         </p>
         <a
-          href="https://selar.co/187q22"
+          href="https://selar.co/7l3147"
           target="_blank"
           rel="noopener noreferrer"
           className="ml-4 w-36 rounded-full pl-4 pr-2 py-2 text-white flex items-center space-x-1 mt-4 text-xs font-bold bg-zinc-800"
