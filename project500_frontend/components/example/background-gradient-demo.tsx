@@ -5,7 +5,7 @@ import { IconAppWindow } from "@tabler/icons-react";
 import Image from "next/image";
 
 const Hood = "/assets/shirt.png";
-const Book = "/assets/sponsor.jpeg";
+const Book = "/assets/Sponsor.jpeg";
 
 export default function BackgroundGradientDemo() {
   return (
