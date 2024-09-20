@@ -16,7 +16,10 @@ const nextConfig = {
         hostname: 'wembleypark.com'
       },
     ]
-  }
+  },
+  env: {
+    BREVO_API_KEY: process.env.NEXT_PUBLIC_BREVO_API_KEY,
+  },
 };
 
 export default nextConfig;
