@@ -248,7 +248,7 @@ const RegistrationForm: React.FC = () => {
               <p>Please review the details and proceed with the necessary actions.</p>
             </div>
             <div class="footer">
-              <p>Thank you,<br>Support/p>
+              <p>Thank you,<br>Support</p>
             </div>
           </div>
         </body>
