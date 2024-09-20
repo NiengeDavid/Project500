@@ -387,7 +387,7 @@ const RegistrationForm: React.FC = () => {
               name="contactPersonName"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Contact Person's Name</FormLabel>
+                  <FormLabel>Contact Person&apos;s Name</FormLabel>
                   <FormControl>
                     <Input
                       className="bg-transparent border border-gray-800"
@@ -406,7 +406,7 @@ const RegistrationForm: React.FC = () => {
               name="contactEmail"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Contact Person's Email</FormLabel>
+                  <FormLabel>Contact Person&apos;s Email</FormLabel>
                   <FormControl>
                     <Input
                       className="bg-transparent border border-gray-800"
@@ -425,7 +425,7 @@ const RegistrationForm: React.FC = () => {
               name="contactPhone"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Contact Person's Phone Number</FormLabel>
+                  <FormLabel>Contact Person&apos;s Phone Number</FormLabel>
                   <FormControl>
                     <Input
                       className="bg-transparent border border-gray-800"
