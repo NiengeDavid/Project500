@@ -176,7 +176,7 @@ const RegistrationForm: React.FC = () => {
     };
 
     const clientEmailContent = {
-      to: "davidnienge@gmail.com", //  dyslexiaprojectafrica@gmail.com Replace with the actual client's email
+      to: "dyslexiaprojectafrica@gmail.com", //  dyslexiaprojectafrica@gmail.com Replace with the actual client's email
       subject: `New School Enrollment Submission - ${data.schoolName}`,
       htmlContent: `
         <!DOCTYPE html>

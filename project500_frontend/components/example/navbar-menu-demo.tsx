@@ -35,9 +35,10 @@ function Navbar({ className }: { className?: string }) {
         <HoveredLink href="#home">Home</HoveredLink>
         <HoveredLink href="#about">About</HoveredLink>
         <HoveredLink href="#location">Location</HoveredLink>
-        <HoveredLink href="#sponsor">Sponsor</HoveredLink>
+        <HoveredLink href="/register">Register</HoveredLink>
         <MenuItem setActive={setActive} active={active} item="...">
           <div className="flex flex-col space-y-4 text-sm">
+            <HoveredLink href="#sponsor">Sponsor</HoveredLink>
             <HoveredLink href="#team">Team</HoveredLink>
             <HoveredLink href="#volunteer">Volunteer</HoveredLink>
             {/* <HoveredLink href="#gallery">Gallery</HoveredLink> */}
