@@ -18,7 +18,7 @@ const nextConfig = {
     ]
   },
   env: {
-    BREVO_API_KEY: process.env.NEXT_PUBLIC_BREVO_API_KEY,
+    NEXT_PUBLIC_BREVO_API_KEY: process.env.NEXT_PUBLIC_BREVO_API_KEY,
   },
 };
 
