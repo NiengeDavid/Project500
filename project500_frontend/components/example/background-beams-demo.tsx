@@ -19,13 +19,12 @@ export default function BackgroundBeamsDemo() {
         </h1>
         <p></p>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm md:text-start relative z-10 mb-5">
-          Welcome to Project500, we&apos;ve currently closed the volunteer
-          quoter for this cohort of the Project500. You can leave your mail and
-          we&apos;ll be right in your box when the next cohort kicksoff in
-          January 2025. Thank you for the interest to serve.
+          Welcome to Project500, we&apos;re currently accepting volunteers for
+          the Dyslexia Project500 Phase 3, hit the Join now button to fill out
+          the form and we&apos;ll get back to you as soon as possible.
         </p>
         <button
-          onClick={() => handleClick("https://docs.google.com/forms/d/e/1FAIpQLSdVuKa84ng8lo2ei7qz0sQgc6MzVwmeRBVUMqHR9JUoV-8N6A/viewform?usp=sharing")}
+          onClick={() => handleClick("https://forms.gle/iAVHZxrkpJWTkzHQA")}
           className="px-4 py-2 cursor-pointer backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative"
         >
           Join now →
